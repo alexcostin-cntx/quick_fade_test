@@ -1,0 +1,54 @@
+body {
+    padding: 20px;
+}
+
+.xs-player {
+    position: relative;
+}
+.xs-item {
+    display: block;
+    width: 288px;
+    height: 234px;
+    &.yes { 
+        background: url("assets/XS1.png");
+        animation: fade linear 10s infinite;
+        opacity: 1;
+    }
+    &.no { 
+        background: url("assets/XS2.png");
+        position: absolute;
+        
+    }
+    
+}
+
+.s-item {
+    display: block;
+    width: 320px;
+    height: 252px;
+    &.yes { 
+        background: url("assets/S1.png");
+        animation: fade linear 10s infinite;
+        opacity: 1;
+    }
+    &.no { 
+        background: url("assets/S2.png");
+        position: absolute;
+        
+    }
+}
+
+@keyframes fade {
+    0% {opacity: 1}
+    20% {opacity: 1}
+    22% {opacity: 0}
+    80% {opacity: 0}
+    82% {opacity: 1}
+    100% {opacity: 1}
+
+}
+
+.spacer {
+    height: 8rem;
+    display: block;
+}
