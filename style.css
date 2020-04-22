@@ -20,11 +20,13 @@ body {
 }
 .column-1 .xs-item.yes {
   background: url("assets/XS1.png");
+  background-size: cover;
   animation: fade linear 10s infinite;
   opacity: 1;
 }
 .column-1 .xs-item.no {
   background: url("assets/XS2.png");
+  background-size: cover;
   position: absolute;
 }
 .column-1 .s-item {
@@ -34,11 +36,13 @@ body {
 }
 .column-1 .s-item.yes {
   background: url("assets/S1.png");
+  background-size: cover;
   animation: fade linear 10s infinite;
   opacity: 1;
 }
 .column-1 .s-item.no {
   background: url("assets/S2.png");
+  background-size: cover;
   position: absolute;
 }
 
@@ -49,6 +53,7 @@ body {
 }
 .column-2 .xs-item.yes {
   background: url("assets/XS2.png");
+  background-size: cover;
 }
 .column-2 .s-item {
   display: block;
@@ -57,6 +62,7 @@ body {
 }
 .column-2 .s-item.yes {
   background: url("assets/S2.png");
+  background-size: cover;
 }
 
 @keyframes fade {
